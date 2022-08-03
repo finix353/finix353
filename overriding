@@ -1,0 +1,17 @@
+class Animal {
+    void name(){
+        System.out.println(" the name of animal");
+    }
+}
+class Dog extends Animal{
+    void Barking(){
+        System.out.println("the dog is barking:");
+    }
+}
+class idiot{
+    public static void main(String[] args){
+        Dog obj1=new Dog();
+        obj1.Barking();
+        obj1.name();
+    }
+}
