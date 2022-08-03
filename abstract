@@ -1,0 +1,15 @@
+//abstarct class oop
+ abstract class abstractclass {
+    abstract void show();
+}
+class pial extends abstractclass{
+    void show(){
+        System.out.println("pial hasan borno ");
+    }
+}
+ class Main{
+    public static void main(String[] args) {
+        pial p= new pial();
+        p.show();
+    }
+ }
